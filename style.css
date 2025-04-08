@@ -169,4 +169,31 @@ footer {
   66%  { transform: translateX(-200%); }
   100% { transform: translateX(0); }
 }
+.stats-section {
+  background-color: #f0f8ff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.counters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.counter-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  width: 150px;
+}
+
+.counter {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0077cc;
+}
 
