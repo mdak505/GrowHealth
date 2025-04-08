@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GrowHealth RCM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>GrowHealth RCM Solutions</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Streamline Your Revenue Cycle</h2>
+    <p>We offer end-to-end medical billing and RCM solutions to improve your cash flow.</p>
+    <button onclick="showMessage()">Learn More</button>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Medical Billing</li>
+      <li>Patient Eligibility Verification</li>
+      <li>Claim Submission & Follow-up</li>
+      <li>Denial Management</li>
+    </ul>
+  </section>
+
+  <section id="why-us">
+    <h2>Why Choose Us?</h2>
+    <p>Our experienced team ensures accuracy, faster reimbursements, and reduced denials.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 GrowHealth RCM. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
