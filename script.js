@@ -1,8 +1,8 @@
 function showMessage() {
-  alert("GrowHealth RCM helps you get paid faster with less hassle!");
+  alert("GrowHealth offers flexible and affordable RCM solutions for clinics and hospitals!");
 }
 
 function handleSubmit(event) {
   event.preventDefault();
-  alert("Thanks for contacting us! We'll get back to you soon.");
+  alert("Your message has been sent. We will get back to you soon!");
 }
