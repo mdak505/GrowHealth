@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <h1>GrowHealth RCM Solutions</h1>
+    <div class="logo">🌿 GrowHealth</div>
     <nav>
       <ul>
         <li><a href="#services">Services</a></li>
@@ -19,27 +19,41 @@
   </header>
 
   <section class="hero">
-    <h2>Streamline Your Revenue Cycle</h2>
-    <p>We offer end-to-end medical billing and RCM solutions to improve your cash flow.</p>
-    <button onclick="showMessage()">Learn More</button>
+    <div class="hero-content">
+      <h1>Healthcare RCM Made Simple</h1>
+      <p>Fast. Reliable. Accurate. Your billing partner for a healthier practice.</p>
+      <button onclick="showMessage()">Get Started</button>
+    </div>
+    <img src="https://source.unsplash.com/600x400/?hospital,healthcare" alt="Healthcare" />
   </section>
 
-  <section id="services">
+  <section id="services" class="cards">
     <h2>Our Services</h2>
-    <ul>
-      <li>Medical Billing</li>
-      <li>Patient Eligibility Verification</li>
-      <li>Claim Submission & Follow-up</li>
-      <li>Denial Management</li>
-    </ul>
+    <div class="card-list">
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?billing" alt="Billing" />
+        <h3>Medical Billing</h3>
+        <p>Efficient and error-free billing processes to improve cash flow.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?doctor,insurance" alt="Verification" />
+        <h3>Eligibility Verification</h3>
+        <p>Quick verification of patient coverage to reduce denials.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?files,claims" alt="Claims" />
+        <h3>Claim Submission</h3>
+        <p>Timely claim submission with tracking and follow-up services.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="why-us">
-    <h2>Why Choose Us?</h2>
-    <p>Our experienced team ensures accuracy, faster reimbursements, and reduced denials.</p>
+  <section id="why-us" class="highlight">
+    <h2>Why Choose GrowHealth?</h2>
+    <p>We simplify the complexity of medical billing with automation and expertise. Our tailored RCM solutions help practices of all sizes grow smarter and faster.</p>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="contact">
     <h2>Contact Us</h2>
     <form onsubmit="handleSubmit(event)">
       <input type="text" placeholder="Your Name" required />
